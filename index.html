@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <link rel="icon" type="image/png" sizes="32x32" href="assets/images/favicon-32x32.png">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,700;1,400;1,800&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="src/output.css">
+
+  <title>Frontend Mentor | Age calculator app</title>
+</head>
+<body class="flex flex-col justify-center items-center min-h-screen min-w-[375px] relative bg-light-gray">
+  <main class="flex flex-col relative px-6 md:px-12 py-[52px] rounded-3xl rounded-br-[90px] bg-white md:w-[642px]">
+
+    <div id="dateInput" class="flex flex-row relative space-x-4 poppins-bold">
+      <div class="flex flex-col">
+        <label for="input-day" class="text-sm md:text-base tracking-widest mb-1 text-smokey-grey">DAY</label>
+        <input id="input-day" type="number" placeholder="DD"
+          class="border-solid border-[1px] rounded-md w-[85px] md:w-[129px] h-[52px] md:h-[56px] pl-4 border-light-gray focus:outline-none focus:border-purple"
+        >
+      </div>
+
+      <div class="flex flex-col">
+        <label for="input-month" class="text-sm md:text-base tracking-widest mb-1 text-smokey-grey">MONTH</label>
+        <input id="input-month" type="number" placeholder="MM"
+          class="border-solid border-[1px] rounded-md w-[85px] md:w-[129px] h-[52px] md:h-[56px] pl-4 border-light-gray focus:outline-none focus:border-purple"
+        >
+      </div>
+
+      <div class="flex flex-col">
+        <label for="input-year" class="text-sm md:text-base tracking-widest mb-1 text-smokey-grey">YEAR</label>
+        <input id="input-year" type="number" placeholder="YYYY"
+          class="border-solid border-[1px] rounded-md w-[85px] md:w-[129px] h-[52px] md:h-[56px] pl-4 border-light-gray focus:outline-none focus:border-purple"
+        >
+      </div>
+    </div>
+
+    <div id="separator" class="relative flex flex-row justify-center md:justify-end items-center my-16 md:my-10">
+      <div>
+        <hr class="w-72 md:w-[550px]" />
+      </div>
+      <button id="calcAge" class="absolute rounded-full">
+        <img src="../assets/images/icon-arrow.svg" alt="white arrow down on a purple background" class="rounded-full p-4 size-16 md:size-20 bg-purple">
+      </button>
+    </div>
+
+    <div class="poppins-extrabold-italic text-[50px] md:text-[80px] leading-none">
+      <span id="text-year" class="text-purple">--</span>
+      <span class="text-off-black">years</span>
+      <br />
+      <span id="text-month" class="text-purple">--</span>
+      <span class="text-off-black">months</span>
+      <br />
+      <span id="text-day" class="text-purple">--</span>
+      <span class="text-off-black">days</span>
+    </div>
+
+  </main>
+  <script type="module" src="/src/main.ts"></script>
+</body>
+</html>
