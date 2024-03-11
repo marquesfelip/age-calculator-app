@@ -23,7 +23,7 @@ function validateDayMonthYearFields(dayInput: number, monthInput: number, yearIn
       elementLabelDay?.classList.add('text-red-500')
 
       const elementInputDay = document.getElementById('input-day')
-      const newElement = '<span id="required-day" class="poppins-regular-italic text-[11px] sm:text-[9px] text-red-500">This field is required</span>'
+      const newElement = '<span id="required-day" class="poppins-regular-italic text-[9px] md:text-[13px] text-red-500">This field is required</span>'
       elementInputDay?.insertAdjacentHTML('afterend', newElement)
 
       elementInputDay?.classList.add('border-red-500')
@@ -34,7 +34,7 @@ function validateDayMonthYearFields(dayInput: number, monthInput: number, yearIn
       elementLabelMonth?.classList.add('text-red-500')
 
       const elementInputMonth = document.getElementById('input-month')
-      const newElement = '<span id="required-month" class="poppins-regular-italic text-[11px] sm:text-[9px] text-red-500">This field is required</span>'
+      const newElement = '<span id="required-month" class="poppins-regular-italic text-[9px] md:text-[13px] text-red-500">This field is required</span>'
       elementInputMonth?.insertAdjacentHTML('afterend', newElement)
 
       elementInputMonth?.classList.add('border-red-500')
@@ -45,7 +45,7 @@ function validateDayMonthYearFields(dayInput: number, monthInput: number, yearIn
       elementLabelYear?.classList.add('text-red-500')
 
       const elementInputYear = document.getElementById('input-year')
-      const newElement = '<span id="required-year" class="poppins-regular-italic text-[11px] sm:text-[9px] text-red-500">This field is required</span>'
+      const newElement = '<span id="required-year" class="poppins-regular-italic text-[9px] md:text-[13px] text-red-500">This field is required</span>'
       elementInputYear?.insertAdjacentHTML('afterend', newElement)
 
       elementInputYear?.classList.add('border-red-500')
@@ -72,7 +72,7 @@ function validateDayMonthYearFields(dayInput: number, monthInput: number, yearIn
     elementLabelDay?.classList.add('text-red-500')
 
     const elementInputDay = document.getElementById('input-day')
-    const newElement = '<span id="required-day" class="poppins-regular-italic text-[11px] text-red-500">Must be a valid day</span>'
+    const newElement = '<span id="required-day" class="poppins-regular-italic text-[9px] md:text-[13px] text-red-500">Must be a valid day</span>'
     elementInputDay?.insertAdjacentHTML('afterend', newElement)
 
     elementInputDay?.classList.add('border-red-500')
@@ -83,7 +83,7 @@ function validateDayMonthYearFields(dayInput: number, monthInput: number, yearIn
     elementLabelMonth?.classList.add('text-red-500')
 
     const elementInputMonth = document.getElementById('input-month')
-    const newElement = '<span id="required-month" class="poppins-regular-italic text-[11px] text-red-500">Must be a valid month</span>'
+    const newElement = '<span id="required-month" class="poppins-regular-italic text-[9px] md:text-[13px] text-red-500">Must be a valid month</span>'
     elementInputMonth?.insertAdjacentHTML('afterend', newElement)
 
     elementInputMonth?.classList.add('border-red-500')
@@ -94,7 +94,7 @@ function validateDayMonthYearFields(dayInput: number, monthInput: number, yearIn
     elementLabelYear?.classList.add('text-red-500')
 
     const elementInputYear = document.getElementById('input-year')
-    const newElement = '<span id="required-year" class="poppins-regular-italic text-[11px] text-red-500">Must be in the past</span>'
+    const newElement = '<span id="required-year" class="poppins-regular-italic text-[9px] md:text-[13px] text-red-500">Must be in the past</span>'
     elementInputYear?.insertAdjacentHTML('afterend', newElement)
 
     elementInputYear?.classList.add('border-red-500')
@@ -105,7 +105,7 @@ function validateDayMonthYearFields(dayInput: number, monthInput: number, yearIn
     elementLabelYear?.classList.add('text-red-500')
 
     const elementInputYear = document.getElementById('input-year')
-    const newElement = '<span id="required-year" class="poppins-regular-italic text-[11px] text-red-500">Must be in the past</span>'
+    const newElement = '<span id="required-year" class="poppins-regular-italic text-[9px] md:text-[13px] text-red-500">Must be in the past</span>'
     elementInputYear?.insertAdjacentHTML('afterend', newElement)
 
     elementInputYear?.classList.add('border-red-500')

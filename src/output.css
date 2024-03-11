@@ -679,12 +679,12 @@ video {
   padding-left: 1rem;
 }
 
-.text-\[11px\] {
-  font-size: 11px;
-}
-
 .text-\[50px\] {
   font-size: 50px;
+}
+
+.text-\[9px\] {
+  font-size: 9px;
 }
 
 .text-sm {
@@ -753,16 +753,6 @@ input::-webkit-inner-spin-button {
   outline-offset: 2px;
 }
 
-@media (min-width: 640px) {
-  .sm\:text-\[7px\] {
-    font-size: 7px;
-  }
-
-  .sm\:text-\[9px\] {
-    font-size: 9px;
-  }
-}
-
 @media (min-width: 768px) {
   .md\:my-10 {
     margin-top: 2.5rem;
@@ -797,6 +787,10 @@ input::-webkit-inner-spin-button {
   .md\:px-12 {
     padding-left: 3rem;
     padding-right: 3rem;
+  }
+
+  .md\:text-\[13px\] {
+    font-size: 13px;
   }
 
   .md\:text-\[80px\] {
