@@ -552,10 +552,6 @@ video {
   position: relative;
 }
 
-.m-auto {
-  margin: auto;
-}
-
 .my-16 {
   margin-top: 4rem;
   margin-bottom: 4rem;
@@ -588,10 +584,6 @@ video {
 
 .w-\[85px\] {
   width: 85px;
-}
-
-.w-1 {
-  width: 0.25rem;
 }
 
 .min-w-\[375px\] {
@@ -649,6 +641,11 @@ video {
   border-color: hsl(0 0% 86% / var(--tw-border-opacity));
 }
 
+.border-red-500 {
+  --tw-border-opacity: 1;
+  border-color: rgb(239 68 68 / var(--tw-border-opacity));
+}
+
 .bg-light-gray {
   --tw-bg-opacity: 1;
   background-color: hsl(0 0% 86% / var(--tw-bg-opacity));
@@ -682,6 +679,10 @@ video {
   padding-left: 1rem;
 }
 
+.text-\[11px\] {
+  font-size: 11px;
+}
+
 .text-\[50px\] {
   font-size: 50px;
 }
@@ -689,31 +690,6 @@ video {
 .text-sm {
   font-size: 0.875rem;
   line-height: 1.25rem;
-}
-
-.text-\[60px\] {
-  font-size: 60px;
-}
-
-.text-\[90px\] {
-  font-size: 90px;
-}
-
-.text-\[80px\] {
-  font-size: 80px;
-}
-
-.text-xs {
-  font-size: 0.75rem;
-  line-height: 1rem;
-}
-
-.text-\[10px\] {
-  font-size: 10px;
-}
-
-.text-\[11px\] {
-  font-size: 11px;
 }
 
 .leading-none {
@@ -734,19 +710,14 @@ video {
   color: hsl(259 100% 65% / var(--tw-text-opacity));
 }
 
-.text-smokey-grey {
-  --tw-text-opacity: 1;
-  color: hsl(0 1% 44% / var(--tw-text-opacity));
-}
-
-.text-red-600 {
-  --tw-text-opacity: 1;
-  color: rgb(220 38 38 / var(--tw-text-opacity));
-}
-
 .text-red-500 {
   --tw-text-opacity: 1;
   color: rgb(239 68 68 / var(--tw-text-opacity));
+}
+
+.text-smokey-grey {
+  --tw-text-opacity: 1;
+  color: hsl(0 1% 44% / var(--tw-text-opacity));
 }
 
 .poppins-bold {
@@ -783,12 +754,12 @@ input::-webkit-inner-spin-button {
 }
 
 @media (min-width: 640px) {
-  .sm\:w-\[100px\] {
-    width: 100px;
+  .sm\:text-\[7px\] {
+    font-size: 7px;
   }
 
-  .sm\:w-\[600px\] {
-    width: 600px;
+  .sm\:text-\[9px\] {
+    font-size: 9px;
   }
 }
 
@@ -807,16 +778,8 @@ input::-webkit-inner-spin-button {
     height: 56px;
   }
 
-  .md\:w-\[692px\] {
-    width: 692px;
-  }
-
   .md\:w-\[129px\] {
     width: 129px;
-  }
-
-  .md\:w-\[600px\] {
-    width: 600px;
   }
 
   .md\:w-\[550px\] {

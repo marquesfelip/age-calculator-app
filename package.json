@@ -1,12 +1,13 @@
 {
   "name": "age-calculator-app",
   "private": true,
-  "version": "0.0.0",
+  "version": "0.2.0",
   "type": "module",
   "scripts": {
     "dev": "vite",
     "build": "tsc && vite build",
-    "preview": "vite preview"
+    "preview": "vite preview",
+    "tailwindcss": "npx tailwindcss -i ./src/style.css -o ./src/output.css --watch"
   },
   "devDependencies": {
     "tailwindcss": "^3.4.1",
