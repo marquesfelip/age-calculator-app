@@ -35,8 +35,8 @@ Users should be able to:
 
 ### Links
 
-- Solution URL: [GitHub](https://github.com/marquesfelip/age-calculator-app)
-- Live Site URL: [Cloudflare](age-calculator-app-4ud.pages.dev)
+- Solution URL: [GitHub Repository](https://github.com/marquesfelip/age-calculator-app)
+- Live Site URL: [Cloudflare Pages](https://age-calculator-app-4ud.pages.dev/)
 
 ## My process
 
